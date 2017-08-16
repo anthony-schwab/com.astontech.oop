@@ -1,4 +1,4 @@
-package com.astontech;
+package com.astontech.console;
 
 import java.time.LocalDate;
 import java.time.Month;
@@ -6,6 +6,8 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 import java.util.Scanner;
+
+
 
 public class Main {
 
@@ -21,12 +23,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        LessonCalculatorLAB();
-//        try {
-//            LessonExceptions();
-//        } catch (Exception ex) {
-//            System.out.println(ex.toString());
-//        }
+        Test myTest = new Test();
     }
 
     private static void LessonCalculatorLAB() {
