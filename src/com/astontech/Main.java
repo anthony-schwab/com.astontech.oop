@@ -31,10 +31,6 @@ public class Main {
 
     private static void LessonCalculatorLAB() {
 
-//        int firstInput;
-//        Scanner firstScanner = new Scanner(System.in);
-//        int secondInput;
-//        Scanner secondScanner = new Scanner(System.in);
         int[] inputs = new int[2];
         Scanner inputScanner = new Scanner(System.in);
         char operator;
@@ -51,21 +47,6 @@ public class Main {
                 }
             } while (inputs[i] < 0 || inputs[i] > 9);
         }
-//        do {
-//            System.out.println("Enter a number from 0 to 9: ");
-//            firstInput = firstScanner.nextInt();
-//            if(firstInput < 0 || firstInput > 9){
-//                System.out.println("Digit entered must be between 0 and 9!");
-//            }
-//        } while (firstInput < 0 || firstInput > 9);
-//
-//        do {
-//            System.out.println("Enter a number from 0 to 9: ");
-//            secondInput = secondScanner.nextInt();
-//            if(secondInput < 0 || secondInput > 9){
-//                System.out.println("Digit entered must be between 0 and 9!");
-//            }
-//        } while (secondInput < 0 || secondInput > 9);
 
         do {
             System.out.println("Enter an operator (+, -, /, *): ");
